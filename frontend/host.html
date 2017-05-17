@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>SyncVideo</title>
+
+    <!-- Too lazy to split this css out -->
+    <style type="text/css">
+
+      .video-link:hover {
+        color: grey;
+        cursor: pointer;
+      }
+
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="movieList.js"></script>
+    <script src="host.js"></script>
+  </head>
+  <body style="background: #1d1d1d;">
+    <h1 class="title" style="color: white;"></h1>
+    <p style="color: white;" class="clientCount"></p>
+    <div class="video" style="width:48%;float:left;">
+    </div>
+
+    <ul class="video-list" style="color: white;width:48%;float:right;">
+    </ul>
+
+  </body>
+</html>
