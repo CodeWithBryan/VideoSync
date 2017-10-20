@@ -1,4 +1,4 @@
-# VideoSync
+# VideoSync [INACTIVE]
 Syncs HTML5 video players across browsers for sync'd viewing experience
 
 # Install
